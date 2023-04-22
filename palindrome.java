@@ -7,6 +7,7 @@ public class palindrome {
             int num = Sc.nextInt();
                int copy , d , rev = 0 ;
                copy = num ;
+              //reversing the number 
               while (copy > 0){
                 d = copy % 10 ;
                  rev = rev*10 + d ;
